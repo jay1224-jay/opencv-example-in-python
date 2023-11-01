@@ -45,8 +45,8 @@ if __name__ == '__main__' :
  
     # Read video
     video_path = "test.mkv"
-    video = cv2.VideoCapture(video_path)
-    # video = cv2.VideoCapture(0)  # use camera as video source
+    # video = cv2.VideoCapture(video_path)
+    video = cv2.VideoCapture(0)  # use camera as video source
  
     # Exit if video not opened.
     if not video.isOpened():
